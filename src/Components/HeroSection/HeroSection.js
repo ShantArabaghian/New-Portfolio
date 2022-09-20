@@ -12,7 +12,7 @@ const HeroSection = () => {
 <HeroBg>
 <ReactComponent/>
 <Icon2/>
-<VideoBg autoplay="autoplay" loop="loop" muted defaultMuted playsinline  oncontextmenu="return false;"  preload="auto" src={Video} type='video/mp4' />
+<VideoBg autoPlay muted loop src={Video} type='video/mp4' />
 
 </HeroBg>
 </HeroContainer>
