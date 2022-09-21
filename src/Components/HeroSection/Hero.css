@@ -13,11 +13,8 @@
     
     
 }
-@media screen and (max-width: 1000px) {
-   #logo{
-    width: 90%;
- 
-    }
+#logo :hover{
+  width: 10%;
 }
 #logo2{
     position: absolute;
@@ -31,7 +28,16 @@
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
-
+@media screen and (max-width: 1000px){
+  #logo{
+    width: 90%;
+ 
+    }
+  #logo2{
+   
+    transform: translate(-50%, -90%);
+  }  
+}
 @keyframes animate {
     0% {
       filter: none

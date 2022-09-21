@@ -11,6 +11,7 @@ import Icon7 from '../../images/git-icon.svg'
 import Icon8 from '../../images/figma-1.svg'
 import Icon9 from '../../images/bootstrap-4.svg'
 import Icon10 from '../../images/elementor.svg'
+import { Zoom,Roll,LightSpeed } from 'react-reveal';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -23,7 +24,7 @@ const Skills = () => {
     <>
     <SkillsContainer name="skills" id="services">
 <SkillsH1 data-aos="fade-up">My <Span>Skills</Span></SkillsH1>
-    <SkillsWrapper >
+  <Zoom right>  <SkillsWrapper >
       <SkillsCard >
 <SkillsIcon Icon src={Icon1}/>
 <SkillsH2>HTML</SkillsH2>
@@ -65,7 +66,7 @@ const Skills = () => {
 <SkillsH2>Elementor</SkillsH2>
       </SkillsCard> 
       
-      </SkillsWrapper>
+      </SkillsWrapper></Zoom>
 </SkillsContainer>
     </>
   ) 

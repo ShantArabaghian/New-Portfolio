@@ -22,7 +22,7 @@ return (
 <Navbar toggle={toggle} />
 <HeroSection />
 
-<Info {...homeObjOne} />
+<Info {...homeObjOne} name="about" />
 <Services />
 <Work />
 <Skills/>

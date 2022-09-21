@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import styled, { css } from 'styled-components';
 import { ContactH1,Span } from './Contactcss';
 import {  useRef} from "react";
-
+import LightSpeed from 'react-reveal/LightSpeed';
 import emailjs from '@emailjs/browser';
 
 
@@ -139,7 +139,7 @@ function Contact() {
 
     <ContactH1 data-aos="fade-up">Let's <Span>Work</Span> Together</ContactH1>
 
-      <StyledFormWrapper name="contact">
+     <LightSpeed right> <StyledFormWrapper name="contact">
         <StyledForm onSubmit={handleSubmit} ref={formRef}>
           <label htmlFor="name">Name</label>
           <StyledInput
@@ -169,7 +169,7 @@ function Contact() {
           <StyledButton type="submit">Send Message</StyledButton>
           {done && "Thank you for your message !"}
         </StyledForm>
-      </StyledFormWrapper>
+      </StyledFormWrapper></LightSpeed>
       
     </>
   );

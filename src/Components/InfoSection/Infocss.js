@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const InfoContainer= styled.div`
 color: #fff;
-background: ${({lightBg})=> (lightBg ? '#FBEE6' : '#010606')};
+background: ${({lightBg})=> (lightBg ? '#FFF' : '#010606')};
 width: 100vw;
 `
 export const InfoWrapper = styled.div`

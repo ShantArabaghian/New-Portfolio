@@ -5,15 +5,19 @@ import styled from 'styled-components'
 export const HeroContainer = styled.div`
 overflow-x: hidden;
 width: 100vw;
-background: #0c0c0c;
+background: #FBFBFB;
 display: flex;
 justify-content: center;
 align-items: center;
 padding: 0 30px;
-height: 850px;
+height: 800px;
 position: relative;
 z-index: 1;
+@media screen and (max-width: 768px){
+    height: 550px;
+}
 `
+
 export const HeroBg = styled.div`
 position: absolute;
 top: 0;
@@ -24,7 +28,7 @@ width: 100%;
 height: 100%;
 overflow: hidden;
 `
-export const VideoBg= styled.video`
+export const VideoBg= styled.img`
 width: 100%;
 height: 100%;
 -o-object-fit: cover;
@@ -32,3 +36,4 @@ object-fit: cover;
 background: #232a24;
 
 `
+

@@ -49,8 +49,8 @@ display: flex;
 background:#01bf71;
 align-items: center;
 margin-left: 24px;
-margin-top: 2px;
-margin-bottom:2px;
+margin-top: 4px;
+margin-bottom:4px;
 font-weight: bold;
 padding: 7px;
 border-radius: 50%;
@@ -60,9 +60,17 @@ transition: all 0.2s ease-in-out;
 background:${({scrollNav}) => (scrollNav ? '#000' : '#fff')};
 
 color: ${({scrollNav}) => (scrollNav ? '#fff' : '#000')};
-
-
 }
+@media screen and (max-width: 768px) {
+
+font-size: 1rem;
+margin-left: 4px; 
+padding: 10px;
+margin-top: 10px;
+margin-bottom:10px;
+cursor: none;
+}
+
 `
 export const MobileIcon = styled.div`
 display: none;
@@ -70,7 +78,7 @@ display: none;
 
 @media screen and (max-width: 768px) {
 display: block;
-color: ${({scrollNav}) => (scrollNav ? '#000' : '#fff')};
+color: ${({scrollNav}) => (scrollNav ? '#000' : '#01bf71')};
 position: absolute;
 top: 0;
 

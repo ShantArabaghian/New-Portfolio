@@ -2,8 +2,12 @@ import React from 'react'
 import { FooterContainer,FooterWraper,FooterLinks,FooterLinkIcons,FooterWraper2 } from './Footercss'
 import {AiOutlineMobile,AiOutlineMail,AiOutlineGithub,AiOutlineWhatsApp} from 'react-icons/ai'
 import {FaLinkedinIn} from 'react-icons/fa'
+import Jump from 'react-reveal/Jump';
+
 const Footer = () => {
   return (
+    <>
+    <Jump>
     <FooterContainer>
       <FooterWraper><FooterLinks  href="tel:+374980-117-34"><AiOutlineMobile/> +374 98011734</FooterLinks> 
       <FooterLinks href="mailto:shantarabaghian@outlook.com"><AiOutlineMail/> shantarabaghian@outlook.com</FooterLinks>
@@ -20,7 +24,7 @@ const Footer = () => {
         </FooterLinkIcons>
 </FooterWraper2>
 
-    </FooterContainer>
+    </FooterContainer></Jump></>
   )
 }
 

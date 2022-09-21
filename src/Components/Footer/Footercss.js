@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const FooterContainer = styled.div`
 overflow-x: hidden;
 
-height: 150px;
+height: 170px;
 @media screen and (max-width: 1000px) {
     height: 130px;
     }
