@@ -1,6 +1,6 @@
 import React from 'react'
 import { HeroContainer,HeroBg,VideoBg } from './Herocss'
-import Video from '../../video/future-gaming.gif'
+import Video from '../../video/video.gif'
 import {ReactComponent} from '../../images/main3.svg';
 import {ReactComponent as Icon2} from '../../images/main1.svg';
 import AOS from 'aos';

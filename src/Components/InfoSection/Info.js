@@ -1,7 +1,5 @@
 import React from 'react'
-import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { useEffect } from 'react';
 
 import { Column2, InfoContainer,Column1,Heading,Img,ImgWrap,InfoRow,InfoWrapper,Subtitle,TextWrapper } from './Infocss'
 import { Zoom,Roll } from 'react-reveal';

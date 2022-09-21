@@ -11,7 +11,7 @@ import Icon7 from '../../images/git-icon.svg'
 import Icon8 from '../../images/figma-1.svg'
 import Icon9 from '../../images/bootstrap-4.svg'
 import Icon10 from '../../images/elementor.svg'
-import { Zoom,Roll,LightSpeed } from 'react-reveal';
+import { Zoom } from 'react-reveal';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
