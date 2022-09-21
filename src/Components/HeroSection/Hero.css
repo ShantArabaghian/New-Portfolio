@@ -36,6 +36,10 @@
   #logo2{
    
     transform: translate(-50%, -90%);
+    animation-name: animate;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
   }  
 }
 @keyframes animate {
