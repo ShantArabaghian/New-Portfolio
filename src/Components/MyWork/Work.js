@@ -39,10 +39,10 @@ const Work = () => {
       </ProjectsCard> 
       <ProjectsCard >
 <ProjectsIcon Icon src={Icon3}/>
-<Info><InfoH1 href="https://jovial-edison-ff8da8.netlify.app/" target="_blank"><AiTwotoneEye/></InfoH1>
-<InfoH1 href="https://github.com/ShantArabaghian/MovieBox" target="_blank"><AiFillGithub/></InfoH1>
+<Info><InfoH1 href="https://moviedb-shant.netlify.app/" target="_blank"><AiTwotoneEye/></InfoH1>
+<InfoH1 href="https://github.com/ShantArabaghian/MovieAPI" target="_blank"><AiFillGithub/></InfoH1>
 </Info>
-      <ProjectsH2>MovieBox</ProjectsH2>
+      <ProjectsH2>MOVIEDB</ProjectsH2>
       <ProjectsP>A small IMDB clone by fetching an API </ProjectsP>
       </ProjectsCard> 
       <ProjectsCard >

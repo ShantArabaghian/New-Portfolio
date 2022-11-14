@@ -23,7 +23,7 @@ grid-auto-columns: minmax(auto, 1fr);
 align-items: center;
 grid-template-areas: ${({imgStart}) => (imgStart ? `'col1 col2'` : `col2 col1'` )};
 @media screen and (max-width: 768px){
-grid-template-areas: ${({imgStart}) => (imgStart ? `'col2''col1' `:` 'col2 col2' 'col1 col1'`)}
+grid-template-areas: ${({imgStart}) => (imgStart ? `'col1''col2' `:` 'col2 col2' 'col1 col1'`)}
 }
 `
 export const Column1 = styled.div`

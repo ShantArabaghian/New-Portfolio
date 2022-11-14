@@ -10,11 +10,12 @@ display: flex;
 justify-content: center;
 align-items: center;
 padding: 0 30px;
+background-color: #232a24;
 height: 800px;
 position: relative;
 z-index: 1;
 @media screen and (max-width: 768px){
-    height: 550px;
+    height: 650px;
 }
 `
 

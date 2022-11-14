@@ -78,7 +78,7 @@ display: none;
 
 @media screen and (max-width: 768px) {
 display: block;
-color: ${({scrollNav}) => (scrollNav ? '#000' : '#01bf71')};
+color: ${({scrollNav}) => (scrollNav ? '#01bf71' : '#FFF')};
 position: absolute;
 top: 0;
 
